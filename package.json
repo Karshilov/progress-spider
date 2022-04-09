@@ -1,11 +1,12 @@
 {
   "name": "progress-spider",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "A progress line with a spider",
   "files": [
-    "dist"
+    "dist",
+    "src/main.d.ts"
   ],
-  "types": "./**/*.d.ts",
+  "typings": "src/main.d.ts",
   "main": "./dist/progress-spider.umd.js",
   "module": "./dist/progress-spider.es.js",
   "exports": {
