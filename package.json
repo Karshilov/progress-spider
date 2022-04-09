@@ -1,6 +1,6 @@
 {
   "name": "progress-spider",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A progress line with a spider",
   "files": [
     "dist"
@@ -11,7 +11,8 @@
     ".": {
       "import": "./dist/progress-spider.es.js",
       "require": "./dist/progress-spider.umd.js"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "scripts": {
     "dev": "vite",
