@@ -40,6 +40,7 @@ export const getScrollTrigger = (
       const percentage =
         Math.abs(rect.top) / (rect.height - window.innerHeight);
       const line = document.getElementById(id);
+      if (!!!line) return;
       line.style.height = `${Math.floor(
         Math.max(
           window.innerHeight -
@@ -51,6 +52,7 @@ export const getScrollTrigger = (
       )}px`;
     } else {
       const line = document.getElementById(id);
+      if (!!!line) return;
       line.style.height = "0px";
     }
     requestAnimationFrame(ret);
