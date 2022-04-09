@@ -22,5 +22,9 @@
   "license": "MIT",
   "dependencies": {
     "vite": "^2.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Karshilov/progress-spider.git"
   }
 }
