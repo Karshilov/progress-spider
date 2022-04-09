@@ -21,9 +21,10 @@ function SpiderProgress(begin?: string, target?: string, config?: Config) {
     document.querySelector("body").appendChild(
       <div
         style={{
-          marginLeft: config ? config.left ?? 0 : 0,
+          left: config ? config.left ?? 0 : 0,
           ...(config ? config.style ?? {} : {}),
-          position: 'fixed'
+          position: 'fixed',
+          top: 0
         }}
         className={styles.container}
       >
