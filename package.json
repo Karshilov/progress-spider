@@ -1,6 +1,6 @@
 {
   "name": "progress-spider",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A progress line with a spider",
   "files": [
     "dist"

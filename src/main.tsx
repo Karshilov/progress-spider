@@ -23,6 +23,7 @@ function SpiderProgress(begin?: string, target?: string, config?: Config) {
         style={{
           marginLeft: config ? config.left ?? 0 : 0,
           ...(config ? config.style ?? {} : {}),
+          position: 'fixed'
         }}
         className={styles.container}
       >
