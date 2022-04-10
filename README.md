@@ -21,7 +21,7 @@ import "progress-spider/dist/style.css";
 + Call with params
 ```js
 // The first two params are css selector
-// The first params can be null. This will set the position attribute of the spider container into "fixed"
+// The first params can be undefined. This will set the position attribute of the spider container into "fixed"
 // and this is a config example:
 config = {
     left: 20,
