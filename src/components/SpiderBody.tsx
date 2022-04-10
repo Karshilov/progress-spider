@@ -6,7 +6,7 @@ import SpiderLeg from "./SpiderLeg";
 const SpiderBody = () => {
   return (
     <div>
-      <div className={styles.spiderBodyTop} style={{ position: "relative" }}>
+      <div className={styles.spiderBodyTop}>
         <SpiderLeg
           deg={45}
           offsetX={-14}
